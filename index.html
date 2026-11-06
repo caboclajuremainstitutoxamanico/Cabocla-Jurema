@@ -1,0 +1,401 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#10170f">
+
+<title>Instituto Xamânico Cabocla Jurema</title>
+
+<meta name="description" content="Instituto Xamânico Cabocla Jurema. Um espaço de conexão com a natureza, espiritualidade, ancestralidade e autoconhecimento.">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #10170f;
+    color: #eee9dc;
+    line-height: 1.7;
+}
+
+header {
+    background: rgba(10, 17, 11, 0.97);
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid #a58b48;
+}
+
+.logo {
+    color: #d7b96c;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #eee9dc;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d7b96c;
+}
+
+.hero {
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 70px 20px;
+    background:
+    radial-gradient(ellipse at center, rgba(67,91,49,.35), transparent 65%),
+    linear-gradient(135deg, #10170f, #243321, #10170f);
+    position: relative;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.symbol {
+    font-size: 65px;
+    color: #d7b96c;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: clamp(35px, 6vw, 65px);
+    color: #e3c77d;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 19px;
+    max-width: 700px;
+    margin: auto;
+    color: #d8d4c7;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    background: #a58b48;
+    color: #10170f;
+    padding: 13px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #e3c77d;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 80px 9%;
+    text-align: center;
+}
+
+section h2 {
+    color: #d7b96c;
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+section p {
+    max-width: 850px;
+    margin: auto;
+    color: #d4d1c5;
+}
+
+.about {
+    background: #172117;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.card {
+    background: #1e2b1d;
+    border: 1px solid #665b36;
+    padding: 30px 22px;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    border-color: #d7b96c;
+}
+
+.card .icon {
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.card h3 {
+    color: #d7b96c;
+    margin-bottom: 12px;
+}
+
+.events {
+    background: #10170f;
+}
+
+.gallery {
+    background: #172117;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 35px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #a58b48;
+}
+
+.contact {
+    background: linear-gradient(135deg, #1d2b1b, #10170f);
+}
+
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    background: #080d08;
+    border-top: 1px solid #a58b48;
+    color: #aaa58f;
+    font-size: 14px;
+}
+
+footer strong {
+    color: #d7b96c;
+}
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        margin: 0;
+        font-size: 13px;
+    }
+
+    section {
+        padding: 60px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">🌿 CABOCLA JUREMA</div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Instituto</a>
+        <a href="#trabalhos">Vivências</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<!-- INÍCIO -->
+<div class="hero" id="inicio">
+    <div class="hero-content">
+        <div class="symbol">☽ ✧ 🌿 ✧ ☾</div>
+
+        <h1>Instituto Xamânico<br>Cabocla Jurema</h1>
+
+        <p>
+            Onde a ancestralidade encontra a natureza,
+            a espiritualidade desperta e cada alma
+            encontra seu próprio caminho.
+        </p>
+
+        <a href="#sobre" class="btn">Conheça nosso Instituto</a>
+    </div>
+</div>
+
+<!-- SOBRE -->
+<section class="about" id="sobre">
+    <h2>Nossa Essência</h2>
+
+    <p>
+        Somos um grupo que busca fortalecer a conexão com a
+        natureza, a ancestralidade e a espiritualidade.
+
+        Acreditamos na força dos ensinamentos, no respeito
+        aos caminhos de cada pessoa e na importância de
+        compartilhar experiências que nos ajudem a evoluir.
+
+        Cada encontro representa uma oportunidade de
+        aprendizado, união, respeito e transformação.
+    </p>
+</section>
+
+<!-- VIVÊNCIAS -->
+<section id="trabalhos">
+    <h2>Nossas Vivências</h2>
+
+    <p>
+        Momentos de conexão, aprendizado e comunhão
+        com a natureza e com a nossa ancestralidade.
+    </p>
+
+    <div class="cards">
+
+        <div class="card">
+            <div class="icon">🌿</div>
+            <h3>Banhos de Ervas</h3>
+            <p>Vivências com ervas e saberes tradicionais,
+            valorizando o contato com a natureza.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🔥</div>
+            <h3>Encontros Espirituais</h3>
+            <p>Momentos de união, reflexão, respeito
+            e fortalecimento da espiritualidade.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌳</div>
+            <h3>Trilhas na Natureza</h3>
+            <p>Experiências de contemplação,
+            conexão e respeito pela Mãe Natureza.</p>
+        </div>
+
+        <div class="card">
+            <div class="icon">🌙</div>
+            <h3>Autoconhecimento</h3>
+            <p>Uma jornada de aprendizado,
+            evolução e transformação pessoal.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- EVENTOS -->
+<section class="events" id="eventos">
+    <h2>Nossos Encontros</h2>
+
+    <p>
+        Cada encontro guarda uma história.
+        Cada caminhada deixa uma lembrança.
+        Cada pessoa faz parte da nossa jornada.
+
+        <br><br>
+        Acompanhe nossas atividades, celebrações,
+        trilhas e vivências pelas nossas redes sociais.
+    </p>
+
+    <a href="https://www.instagram.com/" target="_blank"
+       class="btn">Acompanhe no Instagram</a>
+</section>
+
+<!-- GALERIA -->
+<section class="gallery" id="galeria">
+    <h2>Galeria de Momentos</h2>
+
+    <p>
+        Registros de nossas caminhadas, encontros,
+        celebrações e momentos especiais.
+    </p>
+
+    <div class="gallery-grid">
+
+        <!-- Substitua pelas fotos do Instituto -->
+        <img src="https://placehold.co/600x400/243321/d7b96c?text=Foto+1"
+             alt="Momento do Instituto">
+
+        <img src="https://placehold.co/600x400/243321/d7b96c?text=Foto+2"
+             alt="Vivência na natureza">
+
+        <img src="https://placehold.co/600x400/243321/d7b96c?text=Foto+3"
+             alt="Encontro do grupo">
+
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section class="contact" id="contato">
+    <h2>Faça Parte da Nossa Jornada</h2>
+
+    <p>
+        A natureza ensina, a ancestralidade guia
+        e a união fortalece nossos caminhos.
+
+        <br><br>
+        Entre em contato e conheça nosso Instituto.
+    </p>
+
+    <!-- TROQUE PELO NÚMERO DO INSTITUTO -->
+    <a class="btn"
+       href="https://wa.me/5511999999999"
+       target="_blank">
+       Fale Conosco pelo WhatsApp
+    </a>
+
+    <br><br>
+
+    <!-- TROQUE PELO INSTAGRAM DO INSTITUTO -->
+    <a class="btn"
+       href="https://www.instagram.com/"
+       target="_blank">
+       Nosso Instagram
+    </a>
+</section>
+
+<footer>
+    <strong>Instituto Xamânico Cabocla Jurema</strong>
+
+    <p>
+        🌿 Respeito à natureza • Ancestralidade • União 🌿
+    </p>
+
+    <p>
+        © 2026 - Todos os direitos reservados.
+    </p>
+</footer>
+
+</body>
+</html>
